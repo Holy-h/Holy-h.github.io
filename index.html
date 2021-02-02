@@ -3,9 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>B-log</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reset.css" />
   </head>
   <body>
-    <h1>김병훈 블로그 첫 번째</h1>
+    <header class="header">
+      <section class="header__logo">
+        <img src="./static/로고_1.png" alt="로고" class="header__logo__img" />
+        <span class="header__logo__text">팅글</span>
+      </section>
+      <nav class="header__nav">
+        <ul class="header__nav__list">
+          <li>메뉴1</li>
+          <li>메뉴2</li>
+          <li>메뉴3</li>
+          <li>메뉴4</li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="main__section">
+        <p class="main__section__title">이 사이트는 제작중입니다.</p>
+        <p class="main__section__desc">첫 🚧시작일: 2021. 02. 02</p>
+      </section>
+      <section class="main__section">
+        <img
+          class="main__section__img"
+          src="./static/Boss.jpg"
+          alt="대표님 용안"
+        />
+        <p class="main__section__img-caption">대표님 용안</p>
+      </section>
+    </main>
   </body>
 </html>
