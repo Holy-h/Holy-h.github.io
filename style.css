@@ -60,11 +60,11 @@
 }
 
 .boss__img {
-  width: 400px;
-  height: 400px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  object-position: 0px -24px;
-  margin-bottom: 8px;
+  /* object-position: 0px -24px; */
+  /* margin-bottom: 8px; */
 }
 
 .boss__img-caption {
@@ -73,28 +73,15 @@
 }
 
 /* article */
-.main__article-section {
+.main__article-container {
   display: grid;
   gap: 40px;
-}
-
-.main__article-section__article {
-  padding: 0 24px;
-}
-
-.main__article-section__article__header {
-  margin-bottom: 16px;
-}
-.main__article-section__article__header__title {
-  font-size: 1.25rem;
-  font-weight: bold;
 }
 
 /* footer */
 .footer {
   padding: 40px 16px;
   background-color: #999999;
-  margin-top: 80px;
 }
 
 /* carousel */
